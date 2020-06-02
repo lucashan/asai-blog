@@ -7,6 +7,10 @@ import '../styles/RecipeCard.css';
 import img1 from '../images/IMG_1526.jpg'
 import img2 from '../images/IMG_1551.JPG'
 import img3 from '../images/IMG_1552.JPG'
+import img4 from '../images/IMG_1562.jpg'
+import img5 from '../images/pasta.JPG' 
+import img6 from '../images/paella.jpg' 
+import img7 from '../images/eggs_benedict.jpg' 
 
 function RecipeCard() {
 	return (
@@ -20,72 +24,60 @@ function RecipeCard() {
 					</Card.Body>
 				</Card>
 			</Button>
+
+			<Button variant="light">
+				<Card style={{margin: "0rem"}}>
+					<Card.Img variant="top" src={img4} />
+					<Card.Body>
+					<Card.Title>Lasagna with Red and White Sauce</Card.Title>
+					</Card.Body>
+				</Card>
+			</Button>
+
+			<Button variant="light">
+				<Card style={{margin: "0rem"}}>
+					<Card.Img variant="top" src={img5} />
+					<Card.Body>
+					<Card.Title>Prosciutto Fettucine Carbonara</Card.Title>
+					</Card.Body>
+				</Card>
+			</Button>
 			
 			<Button variant="light">
 				<Card style={{margin: "0rem"}}>
 					<Card.Img variant="top" src={img3} />
 					<Card.Body>
-					<Card.Title>Card title</Card.Title>
-					<Card.Text>
-						This card has supporting text below as a natural lead-in to additional
-						content.{' '}
-					</Card.Text>
-					</Card.Body>
-					<Card.Footer>
-					<small className="text-muted">Last updated 3 mins ago</small>
-					</Card.Footer>
-				</Card>
-			</Button>
-
-			<Button variant="light">
-				<Card className="text-center" style={{margin: "0rem"}}>
-					<Card.Body>
-					<Card.Title>Card title</Card.Title>
-					<Card.Text>
-						This card has supporting text below as a natural lead-in to additional
-						content.{' '}
-					</Card.Text>
-					<Card.Text>
-						<small className="text-muted">Last updated 3 mins ago</small>
-					</Card.Text>
+					<Card.Title>Souffle Cheesecake</Card.Title>
 					</Card.Body>
 				</Card>
 			</Button>
 
+
+
 			<Button variant="light">
-				<Card className="text-center" style={{margin: "0rem"}}>
+				<Card style={{margin: "0rem"}}>
+					<Card.Img src={img2} />
 					<Card.Body>
-					<Card.Title>Card title</Card.Title>
-					<Card.Text>
-						This card has supporting text below as a natural lead-in to additional
-						content.{' '}
-					</Card.Text>
-					<Card.Text>
-						<small className="text-muted">Last updated 3 mins ago</small>
-					</Card.Text>
+					<Card.Title>Galbi Jim with Cheese</Card.Title>
 					</Card.Body>
 				</Card>
 			</Button>
 
 			<Button variant="light">
 				<Card style={{margin: "0rem"}}>
-					<Card.Img src={img2} />
+					<Card.Img src={img6} />
+					<Card.Body>
+					<Card.Title>Spanish Paella</Card.Title>
+					</Card.Body>
 				</Card>
 			</Button>
 
 			<Button variant="light">
-				<Card className="text-right" style={{margin: "0rem"}}>
-					<blockquote className="blockquote mb-0 card-body">
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-						erat a ante.
-					</p>
-					<footer className="blockquote-footer">
-						<small className="text-muted">
-						Someone famous in <cite title="Source Title">Source Title</cite>
-						</small>
-					</footer>
-					</blockquote>
+				<Card style={{margin: "0rem"}}>
+					<Card.Img src={img7} />
+					<Card.Body>
+					<Card.Title>Eggs Benedict with Strawberries and French Toast</Card.Title>
+					</Card.Body>
 				</Card>
 			</Button>
 
